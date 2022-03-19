@@ -5,14 +5,14 @@ import random
 
 rsp = ['바위', '가위', '보']
 while True:
-    player = input('바위/가위/보/끝')
+    player = input('바위/가위/보/끝 중에 선택하세요!\n')
     computer = random.choice(rsp)
-
-    print(player, computer)
 
     # 끝인 경우
     if player == '끝':
         break
+
+    print(player, computer)
 
     # 비긴 경우
     if player == computer:
