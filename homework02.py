@@ -11,8 +11,17 @@ for i in range(6):
 
 # 주사위 굴리기 게임
 while True:
-    if input("주사위를 굴리시겠습니까? Y/N") == 'N':
+    if input("주사위를 굴리시겠습니까? Y/N\n") == 'N':
         break
 
     random_number = random.randrange(1, 7)
     print(random_number)
+
+while True:
+    if input("주사위를 굴리시겠습니까? Y/N\n") == 'N':
+        break
+
+    dice1 = random.randrange(1, 7)
+    dice2 = random.randrange(1, 7)
+
+    print("주사위1: {0}\n주사위2: {1}\n주사위 합:{2}".format(dice1, dice2, dice1 + dice2))
