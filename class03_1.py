@@ -10,10 +10,16 @@ names = ('박건우', '김영민')
 # names[0] = '김건우'
 # 튜플의 요소를 변화시킬 수 없음
 
+if '박건우' in names:
+    print("Yes")
+
 print(names[0])
 # print(*names, sep='\n')
 for name in names:
     print(name)
+
+names = '박건우', '김영민'
+print(names)
 
 학생, 선생님 = names
 
