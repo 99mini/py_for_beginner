@@ -1,5 +1,13 @@
 # function 함수
 
+def plus(a,b):
+    return a+b
+
+def plus_n_minus(b,a):
+    return a+b, a-b
+
+result = plus_n_minus(a=-10,b=5)
+
 # 리턴 값이 없는 경우
 def gugudan(dan):
     for i in range(1,dan+1):
