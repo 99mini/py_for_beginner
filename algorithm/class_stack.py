@@ -1,3 +1,5 @@
+# stack
+# FILO First In Last Out
 s = []
 
 # push
@@ -11,7 +13,10 @@ top = s.pop()
 print(f'top: {top}')
 print(f'stack: {s}')
 
-# top
+# # top
 top = s[-1]
 print(f'top: {top}')
 print(f'stack: {s}')
+
+# size
+print(f"size: {len(s)}")
