@@ -1,10 +1,10 @@
-import turtle as t
+from turtle import Turtle
 
 def draw(n):
     angle = 180*(1-2/n)
     for i in range(n):
-        t.forward(100)
-        t.right(180 - angle)
+        Turtle.forward(100)
+        Turtle.right(180 - angle)
     while True:
         pass
     
