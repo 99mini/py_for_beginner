@@ -18,11 +18,11 @@ class 란 ?
     class Wheel:
         ...
     
-    
     자전거 만드는 공장
     class Bicycle:
         Wheel front_wheel
         Wheel back_wheel
+        int number
         ...
 
         def __init__(self):
@@ -40,7 +40,6 @@ class Node:
     def __init__(self, data):
         self.data = data
         self.next = None
-
 
 # LinkedList 클래스 (자료구조) 정의
 class LinkedList:
@@ -72,8 +71,7 @@ class LinkedList:
             self.tail = self.before
 
         self.before.next = self.current.next
-        self.current = self.before # 중요 : current가 next가 아닌 before로 변경된다.
-        #
+        self.current = self.before # 중요 : current가 next가 아닌 before로 변경된다.        
 
         self.num_of_data -= 1
 
