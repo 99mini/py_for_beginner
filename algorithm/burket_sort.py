@@ -14,6 +14,7 @@ for number in arr:
     burkets[tens-1].append(number)
 
 for burket in burkets:
+    # sort 방법은 나중에
     burket.sort()
     for number in burket:
         print(number, end=' ')
