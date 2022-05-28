@@ -7,8 +7,10 @@ def selection_sort(arr):
             if arr[j] < arr[min_idx]:
                 min_idx = j
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
+    
+        # print(f"{i}번째 반복 {arr}")
 
-arr = [random.randint(0,1000) for _ in range(100)]
+arr = [random.randint(0,10000) for _ in range(10000)]
 print("====== Init Arr ======")
 print(arr)
 selection_sort(arr)

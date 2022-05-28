@@ -18,7 +18,7 @@ def shell_sort(arr):
             arr[j+h] = temp
         h //= 2
 
-arr = [random.randint(0,1000) for _ in range(100)]
+arr = [random.randint(0,10000) for _ in range(1000)]
 print("====== Init Arr ======")
 print(arr)
 shell_sort(arr)

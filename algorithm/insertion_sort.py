@@ -3,7 +3,7 @@ import random
 '''
 worst case : O(n^2)
 best case : O(n)
-avg case : o(n^2)
+avg case : O(n^2)
 '''
 
 def insertion_sort(arr):
@@ -12,7 +12,7 @@ def insertion_sort(arr):
             if arr[i - 1] > arr[i]:
                 arr[i - 1], arr[i] = arr[i], arr[i - 1]
 
-arr = [random.randint(0,1000) for _ in range(100)]
+arr = [random.randint(0,100000) for _ in range(10000)]
 print("====== Init Arr ======")
 print(arr)
 insertion_sort(arr)
