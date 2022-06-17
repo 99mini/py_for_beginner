@@ -1,5 +1,10 @@
 import random
 
+'''
+worst: O(n^2)
+best: O(nlgn)
+Avg: O(nlgn)
+'''
 
 def quick_sort(arr):
     def sort(low, high):
