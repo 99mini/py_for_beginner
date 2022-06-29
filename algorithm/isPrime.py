@@ -1,6 +1,6 @@
 # 에라토스테네스의 체
 # https://ko.wikipedia.org/wiki/%EC%97%90%EB%9D%BC%ED%86%A0%EC%8A%A4%ED%85%8C%EB%84%A4%EC%8A%A4%EC%9D%98_%EC%B2%B4
-n=1000000
+n = 9999999
 
 def prime_list(n):
     # 에라토스테네스의 체 초기화: n개 요소에 True 설정(소수로 간주)
@@ -24,6 +24,7 @@ def isPrime(number):
       return False
   return True
 
+print(prime_list(n))
 # primes1= []
 # for i in range(2,n+1):
 #   if isPrime(i):
